@@ -82,40 +82,44 @@ body {
 #my-work-section {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 24px;                 /* Slightly increased gap for better spacing */
 }
 
 .projects-container {
   display: flex;
-  flex-direction: column;
-  gap: 16px;
+  flex-direction: column;  
+  gap: 24px;                 /* Slightly increased gap for better spacing */
+  width: 100%;               /* Ensure it takes the full available width */
+  padding: 0 5%;             /* Padding from the sides for better appearance on large screens */
 }
 
-    /* Project Cards */
+/* Project Cards */
 
-    .project-card {
-      max-width: 100%;
-      display: flex;
-      flex-direction: row;
-      gap: 34px;
-      align-items: center;
-    }
+.project-card {
+  max-width: 100%; 
+  width: 100%;               /* Making sure it takes the full width */
+  display: flex;
+  flex-direction: row;       
+  gap: 40px;                 /* Increased gap for more spacing */
+  align-items: center;      
+  padding: 20px 0;           /* Padding at the top and bottom of each card for better appearance */
+}
 
-    .project-card-text-container {
-      flex-direction: column;
-      display: flex;
-      gap: 16px;
-      flex-grow: 1;
-    }
+.project-card-text-container {
+  display: flex;
+  flex-direction: column;    
+  gap: 20px;                 /* Slightly increased gap for better spacing */
+  flex-grow: 1;              
+  font-size: 16px;           /* Adjust font-size as needed, this is an example */
+}
 
-    .project-image {
-      flex-shrink: 0;
-      width: 200px;
-      height: 200px;
-      object-fit: cover;
-      object-position: center;
-    }
-
+.project-image {
+  flex-shrink: 0;            
+  width: 250px;              /* Increased image width */
+  height: 250px;             /* Increased image height */
+  object-fit: cover;
+  object-position: center;
+}
 
 
 
