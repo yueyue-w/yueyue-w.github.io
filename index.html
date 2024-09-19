@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+    <link rel="icon" href="./assets/images/Screen Shot 2023-08-14 at 2.59.56 PM.png" />
+		<title>Yueyue's Personal Website</title>
+    <meta name="description" content="A portfolio for Yueyue Wang">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/typography.css">
+    <link rel="stylesheet" href="./css/utilities.css">
+
+		<script defer src="./js/script.js"></script>
+	</head>
+	<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <a class="nav-title-link" href="./index.html">
+        <span class="nav-title">Yueyue's Profile</span>
+        <a class="button" href="mailto:sarah.yueyuew@gmail.com">
+          <span class="button-text">Contact Me</span>
+        </a>
+	<a class="button" href="https://drive.google.com/file/d/1v22CxPURXpspFW34Rzx-ZzKqH1BTbeXE/view?usp=sharing">
+          <span class="button-text">My Resume</span>
+        </a>
+      </a>
+    </div>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+
+      <!-- PORTFOLIO HEADER -->
+      <div id="portfolio-header">
+        <div id="portfolio-header-image-container">
+          <img src="./assets/images/Screen Shot 2023-08-14 at 2.59.56 PM.png" class="portfolio-header-image">
+        </div>
+
+          <!-- 
+            TODO
+
+            - Change the main-title to whatver you want
+            - Change the body-text after that to a quick introduction to what you do
+            - Edit the button text if you feel like it. It will link to the projects section below.
+          -->
+        <div id="portfolio-header-text-container">
+            <div class="header-text">
+              <span class="main-title">Hey! I'm Yueyue, a CS & Public Policy graduate student @UChicago</span>
+              <div class="body-text">I'm deeply passionate about data science and analysis. Originally from China, I ventured to the United States to pursue my undergrad and master's degree. Prior to delving into graduate school, I garnered four years of professional experience in the data field (internships).</div>
+            </div>
+            <a class="button" id="my-work-link">
+              <span class="button-text">Check out my projects</span> 
+              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+            </a>
+        </div>
+      </div>
+
+      <!-- ABOUT SECTION -->
+      <!-- 
+        TODO
+
+        - Change the subheader-text to whatever header you want
+        - Add paragraphs using the <div class="body-text"></div> elements in the "about-section-content"
+      -->
+      <div id="about-section">
+        <span class="subheader-text">About Me</span>
+        <div class="about-section-content">
+          <div class="body-text">My academic foundation was laid at Syracuse University, where I majored in Information Science and Supply Chain Management. Over a span of four years, I cultivated a strong proficiency in data cleaning, cleaning, management, analysis, and visualization. My academic pursuits were further enriched with hands-on experience during four internships, where I honed my capabilities as a data analyst.</div>
+          <div class="body-text">Venturing further into the world of data science and software development, I found a profound passion and calling. I currently serve as a Data Analyst at the Office of Civic Engagement at UChicago. Here, I have not only mastered unstructured data cleaning and analysis but have also excelled in fostering cross-departmental communication and driving program development, scoping, assessment, and evaluations.</div>
+        </div>
+      </div>
+
+      <!-- PROJECTS / MY WORK SECTION -->
+      <div id="my-work-section">
+        <!-- TODO - Change the subheader-text to whatever you want the Projects section header to say -->
+        <span class="subheader-text">My Projects</span>
+
+        <div class="projects-container">
+          <div class="project-card">
+            <img src="./assets/images/food.png" class="project-image">
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">Food Accessibility in Chicago</div>
+              <div class="body-text project-card-text">An interactive web app powered by Dash library in Python.</div>
+              <a class="button" href="https://github.com/uchicago-capp122-winter23/30122-project-cappyfoodies">
+                <span class="button-text">Github Link</span>
+                <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+              </a>
+            </div>
+         </div>
+          <div class="project-card">
+            <img src="./assets/images/stakeholder_map.png" class="project-image">
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">OCE Stakeholder Map</div>
+              <div class="body-text project-card-text">A interactive web app powered by ArcGIS Online.</div>
+              <a class="button" href="https://experience.arcgis.com/experience/d6e9d331acd74d469fd61a26ccf22d85">
+                <span class="button-text">Demo</span>
+                <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+              </a>
+            </div>
+	         </div>
+          <div class="project-card">
+            <img src="./assets/images/amazon dashboard.png" class="project-image">
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">Global Shipping Analysis Dashboard Powered by Tableau</div>
+              <div class="body-text project-card-text">Data Analyst Apprenticeship Under Supervision of Lyu, Lead Data Engineer at Amazon - Designed and deployed a Tableau dashboard analyzing 2021 global shipping trends across multiple countries, pinpointing district shipping anomalies and assessing overall logistics efficiency.
+		      Designed and implemented an automated ETL pipeline with PostgreSQL and Python, streamlining data processing, leading to accelerated reporting times by 30%.
+	      </div>
+	    </div>
+	         </div>
+	<div class="projects-container">
+          <div class="project-card">
+            <img src="./assets/images/Affordable housing and Public Transportation Access.png" class="project-image">
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">Affordable Housing and Public Transportation Access</div>
+              <div class="body-text project-card-text">An interactive web map powered by ArcGIS.</div>
+              <a class="button" href="https://uchicago.maps.arcgis.com/apps/mapviewer/index.html?webmap=0ccf7eee643344f9a24791528b879f0c">
+                <span class="button-text">Demo</span>
+                <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+              </a>
+            </div>
+         </div>
+          <div class="project-card">
+            <img src="./assets/images/code.jpeg" class="project-image">
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">Sensor-driven Movement Classification</div>
+              <div class="body-text project-card-text">Data Scientist Apprenticeship Under Supervision of Yihan Wang, Software Engineer at Google - Cleaned and detected anomalies in a 1-million-row sensor-driven movement dataset using Scikit-learn, achieving a 95.5% accuracy in data consistency checks, laying the foundation for the motion classification. 
+	      Employed Scikit-learn to apply K-Nearest Neighbors and Random Forest algorithms on accelerometer data, achieving a 92% accuracy in classifying participants' movement patterns
+	      </div>
+	    </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+      <a class="icon-link" target="_blank" href="https://linkedin.com/in/yueyue-wang">
+        <image src="./assets/icons/LinkedIn_icon.svg" class="footer-icon"/>
+      </a>
+      <!-- 
+        TODO - Change the email after "mailto" to your contact email 
+      
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" href="mailto:sarah.yueyuew@gmail.com">
+        <image src="./assets/icons/mail.svg" class="footer-icon"/>
+      </a>
+    </div>
+
+	</body>
+</html>
